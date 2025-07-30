@@ -1,0 +1,26 @@
+{
+  "name": "file-navigator-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for vim-like file navigation in large files",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "npm run build && node dist/index.js",
+    "test": "npm run build && node test/test-server.js"
+  },
+  "keywords": [
+    "mcp",
+    "file-navigation",
+    "vim"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
